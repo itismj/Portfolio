@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Server</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#featured">Featured</a>
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contact</a>
+          </li>
+          <li class="header__line"></li>
+          <li>
+            <button class="header__sun">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 
+                  0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 
+                  4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 
+                  1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 
+                  0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 
+                  01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 
+                  0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0
+                   01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 
+                   00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 
+                   12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 
+                   12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 
+                   00-1.061 1.06l1.59 1.591z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a class="header__resume btn">Resume</a>
+          </li>
+        </ul>
+
+        <button class="header__bars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 
+              010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75
+              0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75
+               0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 
+               010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <sectoin class="hero container">
+        <img class="hero__img" src="pfp1.jpg" alt="Profile picture" />
+        <h2 class="hero__subtitle">Hi, I am Muhammadjon 👋</h2>
+        <h1 class="hero__title">
+          Full-Stack <br />
+          Web Developer.
+        </h1>
+        <p class="hero__description">
+          An experienced and <strong>Web enthusiast</strong>. Passionate about
+          tech and specialized in <strong>Computer Science </strong> major with
+          bachelors degree
+        </p>
+        <a class="hero_btn btn" href="">Reach Out</a>
+      </sectoin>
+
+      <sectoin class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">
+            Hello there! I am Muhammadjon and I am a
+            <strong>Frontend/ Full-stack Web Developer </strong> based in
+            Khujand, Tajikistan. I enjoy grabbing a cup of coffee and code as
+            well as play chess everyday.
+          </p>
+          <p class="about__description">
+            People who know me say me I am dedicated to what I do and passionate
+            about new technologies and science
+          </p>
+          <p class="about__description">
+            I have recenty created my <a>profile on insta</a> where I share
+            about my journey in learning technologies.
+          </p>
+          <hr class="about__hr" />
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">CSS3</li>
+              <li class="about__list">HTML5</li>
+              <li class="about__list">JavaScript (ES6+)</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">ReactJS</li>
+              <li class="about__list">NextJS</li>
+              <li class="about__list">TailwindCSS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about__img-wrapper">
+          <img
+            class="about__img"
+            src="/public/pfp2.jpg"
+            alt="Profile picture"
+          />
+        </div>
+      </sectoin>
+
+      <sectoin class="featured container section">
+        <h3 class="featured__subtitle">Featured Projects</h3>
+        <div class="featured__wrapper">
+          <h2 class="featured__title">Slaying the Dragon</h2>
+          <a class="featured__link" href=""
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5
+                 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 
+                 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 
+                 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 
+                 11-1.06-1.06l1.757-1.757a3.75 3.75 0 
+                 000-5.304zm-7.389 4.267a.75.75 0 011-.353 
+                 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 
+                 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 
+                 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75
+                  3.75 0 00-1.035-6.037.75.75 0 01-.354-1z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+        <p class="featured_description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          expedita laudantium pariatur minus soluta ad labore sit repudiandae
+          neque temporibus incidunt.
+        </p>
+        <div class="featured__label-wrapper">
+          <div>
+            <h3 class="featured__label">Tech Stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">TailwindCSS</li>
+              <li class="featured__info">ReactJS</li>
+              <li class="featured__info">React-Home-Form</li>
+              <li class="featured__info">NodeJS</li>
+              <li class="featured__info">Axios</li>
+              <li class="featured__info">Supabase</li>
+              <li class="featured__info">Stripe</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="featured__label">Project Type</h3>
+            <p class="featured__info">Full-Stack</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">January 2023 - Present</p>
+          </div>
+        </div>
+      </sectoin>
+      <!-- <sectoin></sectoin> -->
+      <!-- <sectoin></sectoin> -->
+    </main>
+    <!-- <footer></footer>  -->
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
